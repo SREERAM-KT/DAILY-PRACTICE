@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class NextGreaterElement2 {
     public static int[] nextGreaterElement(int[] array) {
-        int size = array.length;
+        int size = array.length; 
         Stack<Integer> stack = new Stack();
         for(int index = size - 1; index >= 0; index--){
             stack.push(index);
